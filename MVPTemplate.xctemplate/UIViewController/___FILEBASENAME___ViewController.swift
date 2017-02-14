@@ -13,26 +13,26 @@ protocol ___FILEBASENAMEASIDENTIFIER___View: class {
 }
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: ___VARIABLE_viewControllerSubclass___ {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
-  
+    var presenter: ___FILEBASENAMEASIDENTIFIER___ViewPresenter?
+
     // MARK: Object lifecycle
-  
+
     override func awakeFromNib() {
         super.awakeFromNib()
         if presenter == nil {
             presenter = ___FILEBASENAMEASIDENTIFIER___Presenter.init(view: self)
         }
     }
-  
+
     // MARK: View lifecycle
-  
+
     override func viewDidLoad(){
         super.viewDidLoad()
         doSomethingOnLoad()
     }
-  
+
     // MARK: Event handling
-  
+
     func doSomethingOnLoad(){
         // NOTE: Ask the Presenter to do some work
         presenter?.doSomething()
@@ -41,11 +41,10 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: ___VARIABLE_viewControllerSu
 
 
 extension ___FILEBASENAMEASIDENTIFIER___ViewController : ___FILEBASENAMEASIDENTIFIER___View {
-    
+
     // MARK: Display logic
-    
+
     func displaySomething(object: AnyObject?) {
         // NOTE: Display the result from the Presenter
     }
 }
-
