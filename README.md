@@ -1,6 +1,6 @@
 # MVP XCTemplate
 
-A template for XCode to create a ViewControllers in MVP framework in Swift (Only...)
+A template for XCode to create ViewControllers in MVP framework in Swift (Only...)
 
 ## MVP Framework: 
 ![alt text][mvp]
@@ -12,4 +12,7 @@ The idea here is to separate the view apresentation from the logic behind it. Us
 This is a helper to create both, View Controller and it's Presenter, just adding the Name from the new UIViewController class.
 
 Inspired by: 
-https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.t7m7kcgch (a must-read content)
+
+<https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.t7m7kcgch>
+
+(a must-read content)
