@@ -11,6 +11,12 @@ The idea here is to separate the view apresentation from the logic behind it. Us
 
 This is a helper to create both, View Controller and it's Presenter, just adding the Name from the new UIViewController class.
 
+## Instalation
+
+If you don't know where to paste a XCTemplate in your MAC, consider to use my easy script in ruby:
+<https://github.com/TucoBZ/template_xcode_Installer>
+
+
 Inspired by: 
 
 <https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.t7m7kcgch>
