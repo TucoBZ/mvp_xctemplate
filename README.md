@@ -17,8 +17,7 @@ If you don't know where to paste a XCTemplate in your MAC, consider to use my ea
 <https://github.com/TucoBZ/template_xcode_Installer>
 
 
-Inspired by: 
-
+Inspired by:          
 <https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.t7m7kcgch>
 
 (a must-read content)
