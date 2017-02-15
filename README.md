@@ -1,6 +1,6 @@
 # MVP XCTemplate
 
-A template for XCode to create ViewControllers in MVP framework in Swift (Only...)
+A template for XCode to create ViewControllers in MVP framework in Swift 3.0
 
 ## MVP Framework 
 ![alt text][mvp]
