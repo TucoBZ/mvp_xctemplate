@@ -2,7 +2,7 @@
 
 A template for XCode to create ViewControllers in MVP framework in Swift (Only...)
 
-## MVP Framework: 
+## MVP Framework 
 ![alt text][mvp]
 
 [mvp]: https://cdn-images-1.medium.com/max/800/1*hKUCPEHg6TDz6gtOlnFYwQ.png "Cocoa MVP"
