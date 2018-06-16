@@ -13,7 +13,7 @@ This is a helper to create both, View Controller and it's Presenter, just adding
 
 ## How To: ease way
 
-The easy way is to thing what interations I will have in my controller and add this to `<ScreenName>Presenter` protocol and what I need to update in my Screen and add to `<ScreenName>View` protocol. Build and the compiler will sujest to you that you need to conform to this protocols, than confirm the fix to add the stubs needed. After all you just need to set where in view controller you need to inform the presenter a action/view cycle, and in presenter when it is needed to update the view. just remember to set in your view controller the updates needed in `<ScreenName>View` protocol.
+The easy way, is to thing what interations I will have in my controller, and add this to `<ScreenName>Presenter` protocol, and what I need to update in my Screen, and add to `<ScreenName>View` protocol. Build it, and the compiler will sujest you that it need to conform to this protocols, than confirm the fix to add the stubs needed. After all, you just need to set where in view controller you need to inform the presenter a action/view cycle, and in presenter when it is needed to update the view. just remember to set in your view controller the updates needed in `<ScreenName>View` protocol.
 
 ## Instalation
 
