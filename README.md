@@ -20,6 +20,7 @@ The easy way, is to thing what interations I will have in my controller, and add
 If you don't know where to paste a XCTemplate in your MAC, consider to use my easy script in ruby:
 <https://github.com/TucoBZ/template_xcode_Installer>
 
+## Bibliography
 
 Inspired by:          
 <https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.t7m7kcgch>
