@@ -18,7 +18,7 @@ If you don't know where to paste a XCTemplate in your MAC, consider to use my ea
 
 ## How To Use it
 
-After instalation, you just need to `New File...` in your Xcode Project, look for `MVPTemplate` (by default in Custom category, if you use my Instalation method), give the `Screen Name` to the new controller (Observe the preview of the names of the files that will be create) and confirm the location where the files will be created. The files have the minimum required for the MVP architecture.
+After instalation, you just need to `New File...` in your Xcode Project, look for `MVPTemplate` (by default in Custom category, if you use my Instalation method), give the `Screen Name` to the new controller (Observe the preview of the names of the files that will be created) and confirm the location where the files will be created. The files have the minimum required for the MVP architecture.
 
 ## How It works?
 
