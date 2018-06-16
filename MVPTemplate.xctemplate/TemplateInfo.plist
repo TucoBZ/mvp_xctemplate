@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyScene</string>
+	<string>NewMVP</string>
 	<key>Description</key>
-	<string>This generates a new view controller, with a presenter using MVP architecture.</string>
+	<string>This generates a new view controller, with a presenter and protocols using MVP architecture.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the scene to create</string>
+			<string>The name of the new MVP Controller to create</string>
 			<key>Identifier</key>
-			<string>sceneName</string>
+			<string>mvpName</string>
 			<key>Name</key>
-			<string>New Scene Name:</string>
+			<string>New MVP Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -26,21 +26,25 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___</string>
+			<string>___VARIABLE_mvpName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
+			<key>NotPersisted</key>
+			<true/>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewController</string>
+			<string>___VARIABLE_mvpName:identifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
 			<key>Identifier</key>
 			<string>viewControllerName</string>
 			<key>Name</key>
 			<string>View Controller Name:</string>
+			<key>NotPersisted</key>
+			<true/>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -48,13 +52,31 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Presenter</string>
+			<string>___VARIABLE_mvpName:identifier___Presenter</string>
 			<key>Description</key>
 			<string>The presenter name</string>
 			<key>Identifier</key>
 			<string>presenterName</string>
 			<key>Name</key>
 			<string>Presenter Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_mvpName:identifier___Protocols</string>
+			<key>Description</key>
+			<string>The protocols file</string>
+			<key>Identifier</key>
+			<string>protocolName</string>
+			<key>Name</key>
+			<string>Protocol Name:</string>
+			<key>NotPersisted</key>
+			<true/>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>

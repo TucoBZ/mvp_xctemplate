@@ -8,43 +8,28 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___View: class {
-  func displaySomething(object: AnyObject?)
-}
-
-class ___FILEBASENAMEASIDENTIFIER___ViewController: ___VARIABLE_viewControllerSubclass___ {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___ViewPresenter?
+class ___VARIABLE_mvpName:identifier___ViewController: ___VARIABLE_viewControllerSubclass___ {
+    var presenter: ___VARIABLE_mvpName:identifier___ViewPresenter?
 
     // MARK: Object lifecycle
-
     override func awakeFromNib() {
         super.awakeFromNib()
         if presenter == nil {
-            presenter = ___FILEBASENAMEASIDENTIFIER___Presenter.init(view: self)
+            presenter = ___VARIABLE_mvpName:identifier___Presenter.init(view: self)
         }
     }
 
     // MARK: View lifecycle
-
-    override func viewDidLoad(){
+    override func viewDidLoad() {
         super.viewDidLoad()
-        doSomethingOnLoad()
-    }
-
-    // MARK: Event handling
-
-    func doSomethingOnLoad(){
-        // NOTE: Ask the Presenter to do some work
-        presenter?.doSomething()
+        presenter?.viewDidLoad()
     }
 }
 
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController : ___FILEBASENAMEASIDENTIFIER___View {
-
+extension ___VARIABLE_mvpName:identifier___ViewController : ___VARIABLE_mvpName:identifier___View {
     // MARK: Display logic
-
-    func displaySomething(object: AnyObject?) {
-        // NOTE: Display the result from the Presenter
+    func set(_ title: String?) {
+        self.title = title
     }
 }

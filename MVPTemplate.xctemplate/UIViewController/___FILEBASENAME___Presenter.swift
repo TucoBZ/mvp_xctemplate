@@ -6,31 +6,21 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import UIKit
-import PromiseKit
+import Foundation
 
+class ___VARIABLE_mvpName:identifier___Presenter: ___VARIABLE_mvpName:identifier___ViewPresenter {
+    weak var view: ___VARIABLE_mvpName:identifier___View?
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewPresenter{
-    func doSomething()
-}
+    // TODO: Set the correct Screen Title
+    var screenTitle: String = "___VARIABLE_mvpName:identifier___"
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter:  NSObject,___FILEBASENAMEASIDENTIFIER___ViewPresenter{
-    weak var view: ___FILEBASENAMEASIDENTIFIER___View?
-    
-  
     // MARK: Initializer logic
-    required init(view: ___FILEBASENAMEASIDENTIFIER___View) {
+    required init(view: ___VARIABLE_mvpName:identifier___View) {
         self.view = view
-        super.init()
     }
-  
-    
+
     // MARK: Presentation logic
-  
-    func doSomething(){
-    // NOTE: Format the response and pass the result back to the View Controller
-        view?.displaySomething(object: nil)
+    func viewDidLoad() {
+        view?.set(screenTitle)
     }
 }
-
-
