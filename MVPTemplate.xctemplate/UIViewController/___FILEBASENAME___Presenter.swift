@@ -6,16 +6,16 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class ___VARIABLE_mvpName:identifier___Presenter: ___VARIABLE_mvpName:identifier___ViewPresenter {
-    weak var view: ___VARIABLE_mvpName:identifier___View?
+final class ___VARIABLE_mvpName:identifier___Presenter: ___VARIABLE_mvpName:identifier___PresenterProtocol {
+    weak var view: ___VARIABLE_mvpName:identifier___ViewProtocol?
 
     // TODO: Set the correct Screen Title
     var screenTitle: String = "___VARIABLE_mvpName:identifier___"
 
     // MARK: Initializer logic
-    required init(view: ___VARIABLE_mvpName:identifier___View) {
+    required init(view: ___VARIABLE_mvpName:identifier___ViewProtocol) {
         self.view = view
     }
 

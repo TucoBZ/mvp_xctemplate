@@ -9,7 +9,7 @@
 import UIKit
 
 class ___VARIABLE_mvpName:identifier___ViewController: ___VARIABLE_viewControllerSubclass___ {
-    var presenter: ___VARIABLE_mvpName:identifier___ViewPresenter?
+    var presenter: ___VARIABLE_mvpName:identifier___PresenterProtocol?
 
     // MARK: Object lifecycle
     override func awakeFromNib() {
@@ -27,7 +27,7 @@ class ___VARIABLE_mvpName:identifier___ViewController: ___VARIABLE_viewControlle
 }
 
 
-extension ___VARIABLE_mvpName:identifier___ViewController : ___VARIABLE_mvpName:identifier___View {
+extension ___VARIABLE_mvpName:identifier___ViewController : ___VARIABLE_mvpName:identifier___ViewProtocol {
     // MARK: Display logic
     func set(_ title: String?) {
         self.title = title
